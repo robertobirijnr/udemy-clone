@@ -14,11 +14,12 @@
         >
           Documentation
         </a>
+
         <a
           href="https://github.com/nuxt/nuxt.js"
           target="_blank"
           rel="noopener noreferrer"
-          class="button--grey"
+          class="btn btn-outline-info btn-lg"
         >
           GitHub
         </a>
