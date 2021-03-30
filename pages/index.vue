@@ -1,11 +1,13 @@
 <template>
   <div>
-    <h3 class="text-danger">Udemy clone</h3>
+    <hero-banner/>
   </div>
 </template>
 
 <script>
+import heroBanner from '../components/heroBanner.vue'
   export default {
+  components: { heroBanner },
     
   }
 </script>

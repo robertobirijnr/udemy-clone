@@ -83,10 +83,20 @@ export default {
 }
 
 @media (min-width: 768px) {
-  .navigation-items {
+  .navigation-items{
     display: block;
   }
 }
+
+@media (max-width:575px){
+  .search_bar input{
+    display: none;
+  }
+}
+
+.search_bar{
+    display: none;
+  }
 
 .nav-list {
   list-style: none;

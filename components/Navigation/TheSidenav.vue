@@ -52,7 +52,7 @@ export default {
 .sidenav {
   height: 100%;
   width: 300px;
-  background-color: white;
+  background-color: #002333;
   z-index: 10000;
   position: fixed;
   top: 0;
@@ -82,7 +82,7 @@ export default {
 
 .nav-item a {
   text-decoration: none;
-  color: black;
+  color: #fff;
   font-size: 1.5rem;
 }
 
