@@ -10,9 +10,8 @@
       </span>
     </div>
     <ul class="d-flex">
-      <li><nuxt-link to="/">All Courses</nuxt-link></li>
-      <li><nuxt-link to="/">UI/UX Design</nuxt-link></li>
-      <li><nuxt-link to="/">Graphics Design</nuxt-link></li>
+      <li><nuxt-link to="/">All</nuxt-link></li>
+      <li><nuxt-link to="/">UI/UX</nuxt-link></li>
       <li><nuxt-link to="/">Frontend</nuxt-link></li>
       <li><nuxt-link to="/">Backend</nuxt-link></li>
       <li><nuxt-link to="/">Fullstack</nuxt-link></li>
@@ -42,5 +41,27 @@ li a{
     color: #002333;
     text-decoration: none;
     font-weight: bold;
+}
+
+@media (max-width:575px){
+  ul{
+     display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      justify-content: space-evenly;
+      -webkit-overflow-scrolling: touch;
+  }
+  li a{
+    margin-right: 10px;
+    
+  }
+
+  h1{
+    font-size: 25px;
+    text-align: center;
+  }
+  .pl-5{
+    padding-left: 2px !important;
+  }
 }
 </style>
