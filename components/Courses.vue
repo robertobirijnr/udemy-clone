@@ -4,41 +4,31 @@
       <div class="card">
         <img class="card-img-top" src="https://images.pexels.com/photos/414628/pexels-photo-414628.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Card image cap" />
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
-          </p>
+          <h5 class="card-title text-center">The Complete 2021 Web Development Bootcamp</h5>
         </div>
-        <div class="card-footer">
-          <small class="text-muted">Last updated 3 mins ago</small>
+        <div class="card-footer d-flex justify-content-between">
+          <small class="text-muted">course</small>
+          <small class="text-warning"><b>view Detail</b></small>
         </div>
       </div>
       <div class="card">
         <img class="card-img-top" src="https://images.pexels.com/photos/414628/pexels-photo-414628.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Card image cap" />
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            This card has supporting text below as a natural lead-in to
-            additional content.
-          </p>
+          <h5 class="card-title text-center">The Complete 2021 Web Development Bootcamp</h5>
         </div>
-        <div class="card-footer">
-          <small class="text-muted">Last updated 3 mins ago</small>
+       <div class="card-footer d-flex justify-content-between">
+          <small class="text-muted">course</small>
+          <small class="text-warning"><b>view Detail</b></small>
         </div>
       </div>
       <div class="card">
         <img class="card-img-top" src="https://images.pexels.com/photos/414628/pexels-photo-414628.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Card image cap" />
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
-          </p>
+          <h5 class="card-title text-center">The Complete 2021 Web Development Bootcamp</h5>
         </div>
-        <div class="card-footer">
-          <small class="text-muted">Last updated 3 mins ago</small>
+       <div class="card-footer d-flex justify-content-between">
+          <small class="text-muted">course</small>
+          <small  class="text-warning"><b>view Detail</b></small>
         </div>
       </div>
     </div>
@@ -49,5 +39,11 @@
 export default {};
 </script>
 
-<style lang="scss" scoped>
+<style  scoped>
+.text-warning{
+    cursor: pointer !important;
+}
+/* .text-success{
+    color: #002333 !important;
+} */
 </style>
