@@ -24,7 +24,7 @@
             <nuxt-link class="text-white" to="/signup">Sign Up</nuxt-link>
           </li>
           <li class="nav-item btn btn-outline-info">
-            <nuxt-link class="text-white" to="/admin">Admin</nuxt-link>
+            <nuxt-link class="text-white" to="/signin">Admin</nuxt-link>
           </li>
         </ul>
       </div>
